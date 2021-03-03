@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,400i,600,700,800,900&display=swap&subset=cyrillic');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: #eef0f2;
+    background-image: url('../img/headbg.jpg');
+    height: 100vh;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+menu{
+    margin:0px;
+}
+.navbar-brand{
+    font-weight: 900;
+}
+
+.about_place{
+    padding-bottom: 50px;
+}
+
+.header_title{
+    font-weight: 900;
+}
+.header_link{
+    display: inline-block;
+    background: #ff9696;
+    padding: 12px 20px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    border-radius: 5px;
+    border-bottom: 2px solid #fe5757;
+    margin-top: 15px;
+}
+.header_link:hover{
+    color: #fff;
+    text-decoration: none;
+    background: #fe5757;
+}
+
+#about{
+    margin: 50px 0px;
+}
+.about_title{
+    text-align: center;
+    margin-bottom: 50px!important;
+    font-weight: 700!important;
+}
+
+.marketing{
+    text-align: center;
+}
+.marketing h2{
+    font-weight: 700;
+    margin: 15px 0px;
+}
+
+
+#services{
+    background: #e3f2fd;
+    padding: 50px 0px;
+}
+#services ul li{
+    padding: 10px 0px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.services_title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+#services .list-unstyled{
+    min-height: 230px;
+}
+#services .card-header{
+    min-height: 85px;
+}
+
+
+footer{
+    background: #e3f2fd;
+    font-weight: 600;
+    padding: 15px 0px;
+    margin-top: 50px;
+}
+footer p{
+    margin: 0px;
+}
